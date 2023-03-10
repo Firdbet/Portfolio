@@ -429,6 +429,10 @@ main {
   .contact-wrap h3 {
     margin-bottom: 15px;
   }
+  .contact-wrap p {
+    padding-left: 30px;
+    width: 100%;
+  }
   .contact-icon {
     float: left;
     display: flex;
@@ -479,10 +483,20 @@ main {
         margin: 40px 10px;
         width: 100%;
     }
+    #main-section .main-row h1 br {
+      display: none;
+    }
+    #main-section .main-row p, h1 {
+      font-size: 20px;
+    }
       #about, #education, #skill, #portfolio, #service, #contact {
         margin-left: 0;
     }
-   
+    /* .ignore-br {
+      br {
+        display: none;
+      }
+    } */
     .skill-container {
         display: block;
     }
